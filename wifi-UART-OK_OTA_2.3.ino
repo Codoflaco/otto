@@ -14,8 +14,8 @@
 #include <ESPAsyncWebServer.h> // Librería para crear el servidor web
 
 // WiFi credentials
-const char* ssid = "SITE"; // Sustituya con el ssid de su red Wifi
-const char* password = "colobringo"; // Sustituya con el password de su red Wifi
+const char* ssid = "SSID"; // Sustituya con el ssid de su red Wifi
+const char* password = "password"; // Sustituya con el password de su red Wifi
 
 AsyncWebServer server(80); // Crear una instancia del servidor web en el puerto 80
 
